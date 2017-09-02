@@ -1,2 +1,2 @@
-# YouTubeWeTube
-React Components to create a youtube like website using the YouTubeAPI and YouTube video frame.
+# ReactPlayGround
+brushing up on react, Learning Redux &amp; GraphQL
