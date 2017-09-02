@@ -1,15 +1,14 @@
 {
-  "name": "redux-simple-starter",
+  "name": "youtube-wetube",
   "version": "1.0.0",
-  "description": "Simple starter package for Redux with React and Babel support",
-  "main": "index.js",
-  "repository": "git@github.com:StephenGrider/ReduxSimpleStarter.git",
+  "description": "YouTube Clone",
+  "main": "server.js",
+  "repository": "git@github.com:andreaspapa/YouTubeWeTube.git",
   "scripts": {
-    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
-    "test:watch": "npm run test -- --watch"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "AP",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.2.1",
@@ -27,6 +26,7 @@
   },
   "dependencies": {
     "babel-preset-stage-1": "^6.1.18",
+    "body-parser": "^1.17.2",
     "lodash": "^3.10.1",
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
