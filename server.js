@@ -7,7 +7,7 @@ const app = express();
 //body parser boiler plate
 app.use(express.static('public'));
 app.use(bodyParser.text());
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(bodyParser.json({ type: 'application/vnd.api+json' }));
 
